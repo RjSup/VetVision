@@ -11,6 +11,7 @@ const firebaseConfig = {
     storageBucket: 'YOUR_STORAGE_BUCKET',
 };
 
+
 initializeApp(firebaseConfig);
 
 const analytics = getAnalytics();
