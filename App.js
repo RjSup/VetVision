@@ -27,6 +27,9 @@ const auth = auth();
 const email = 'user@example.com';
 const password = 'password123';
 
+auth.createUserWithEmailAndPassword = function (email, password) {
+
+};
 auth.createUserWithEmailAndPassword(email, password)
     .then(user => console.log('User signed up:', user))
     .catch(error => console.error('Error signing up user:', error));
