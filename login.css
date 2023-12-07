@@ -1,0 +1,49 @@
+body {
+    font-family: Calibri, sans-serif;
+    color: #333;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+label {
+    margin-bottom: 8px;
+}
+
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+
+button {
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+
+button:hover {
+    background-color: #555;
+}
